@@ -1,4 +1,4 @@
-const mongoose = require("../node_modules/mongoose");
+const mongoose = require("mongoose");
 
 const ApiSchema = new mongoose.Schema({
   username: {
@@ -12,6 +12,9 @@ const ApiSchema = new mongoose.Schema({
   url: {
     type: String,
     required: true,
+  },
+  image: {
+    type: String,
   },
   post: {
     type: String,

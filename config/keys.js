@@ -1,6 +1,6 @@
 module.exports = {
-  MongoURI:
-    "mongodb+srv://eliteaddy:adeshile@cluster0-ufp8b.mongodb.net/myblog?retryWrites=true",
-  // MongoURI: "mongodb://localhost/myblog",
-  jwtSecret: "anythingIsSecrert",
+	// MongoURI:
+	//   "mongodb+srv://itrenddotcomdotng:justasecret@cluster0-ufp8b.mongodb.net/ourwebsite?retryWrites=true",
+	MongoURI: 'mongodb://localhost/auth-test',
+	jwtSecret: 'anythingIsSecret',
 };
